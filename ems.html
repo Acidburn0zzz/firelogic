@@ -1,0 +1,85 @@
+
+<html>
+    <head>
+        <title>EMS/CERT</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link rel="stylesheet" href="ems.css"/>
+        <style>
+            tr:hover {background-color: #f5f5f5}
+            th {
+                background-color: #e5e5e5;
+                color: black;
+           }
+            body {
+                background-color: #efe8e8;
+            }
+
+            .container-fluid{
+              background-color: #c90202;
+            }
+            a {
+              color: white !important;
+            }
+
+
+        </style>
+        <script>
+            function get(name){
+   if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+      return decodeURIComponent(name[1]);
+}
+            
+        </script>
+    </head>
+    <body>
+
+      <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" text-align="center" href="#"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> FireLogic </a>
+        </div>
+      </div>
+      </nav>
+
+
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>BP</th>
+      <th>Pulse</th>
+        <th>SPO2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">User 1</th>
+      <td><input type="text" name="BP"></td>
+      <td><input type="text" name="Pulse"></td>
+      <td><input type="text" name="SPO2"></td>
+      <td><button><i class="material-icons">&#xE161;</i></button></td>
+    </tr>
+    <tr>
+      <th scope="row">User 2</th>
+      <td><input type="text" name="BP"></td>
+      <td><input type="text" name="Pulse"></td>
+      <td><input type="text" name="SPO2"></td>
+      <td><button><i class="material-icons">&#xE161;</i></button></td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+    </body>
+</html>

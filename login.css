@@ -1,0 +1,146 @@
+.container-fluid{
+  background-color: #c90202;
+}
+
+.active {
+  font-size: 18px;
+}
+
+a {
+  color: white !important;
+}
+
+body {
+  background-image: url("firefighters.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+#firerehab {
+
+  position: absolute;
+  top: 52px;
+}
+
+a:hover {
+  color: gray !important;
+  background-color: black;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+border-radius: 5px !important;
+}
+
+.bar {
+	margin: auto;
+	float: left;
+}
+
+.navbar-brand {
+  margin-right: 3px !important;
+}
+
+#register {
+  margin-left: 6px;
+}
+
+#loginbutton{
+  margin-top: 20px;
+}
+
+#registerbutton {
+  margin-top: 20px;
+}
+
+.wrapper {
+	margin-top: 80px;
+	margin-bottom: 20px;
+  opacity: .95;
+}
+
+.form-signin {
+  max-width: 420px;
+  padding: 10px 38px 66px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 3px dotted rgba(0,0,0,0.1);
+  }
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+body {
+background-color:white;
+}
+
+blockquote.bg-gray {
+background: #eee;
+border: 1px solid #b3b3b3;
+border-left: 10px solid #b3b3b3;
+color: #ffffff;
+}
+
+blockquote.bg-primary {
+background: #c97e69;
+border: 1px solid #c97e69;
+border-left: 10px solid #c97e69;
+color: #ffffff;
+}
+
+blockquote.primary {
+border: 1px solid #c97e69;
+border-left: 10px solid #c97e69;
+width: 31.25%;
+margin-left: auto;
+margin-right: auto;
+color: black;
+position:absolute;
+left: 0;
+top: 540;
+}
+
+blockquote.right.primary {
+border-color: #c97e69;
+border-left: 1px solid #c97e69;
+border-right: 10px solid #c97e69;
+}
+
+blockquote.right {
+text-align: right;
+border-width: 1px 10px 1px 1px;
+}
